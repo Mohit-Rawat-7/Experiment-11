@@ -15,7 +15,7 @@ class Myclass {
 int main() {
    
    Myclass obj1; 
-   Myclass obj2(7);
-   Myclass obj3(3,5);
+   Myclass obj2(8);
+   Myclass obj3(9,1);
    return 0;
 }
