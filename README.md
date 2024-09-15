@@ -18,6 +18,20 @@ VS Code
 5)-Rectangle Area Calculation: Write a C++ program to calculate the area of a rectangle using a class.
 
 6)-Destructor: Write a C++ program using a destructor.
+## THEORY-
+### Constructor: 
+A constructor is a special class function used to initialize objects. It has the same name as the class and no return type. There are two main types:
+
+Default Constructor: Initializes objects with default values and can be automatically provided by the compiler if not explicitly defined.
+
+Parameterized Constructor: Initializes objects with specific values provided as arguments, allowing for customized object setup.
+Constructors can be overloaded, enabling multiple initialization methods. They are invoked automatically when an object is created.
+
+Copy Constructor: A copy constructor creates a new object as a duplicate of an existing object. It’s essential for classes managing dynamic resources to ensure proper copying and resource management, preventing issues like memory leaks.
+
+### Destructor:
+A destructor is a class function that cleans up resources when an object is destroyed. It shares the class’s name prefixed with a tilde (~). There can only be one destructor per class, and it is automatically called in reverse order of construction. For derived classes, the derived class's destructor is called first, followed by the base class's destructor.
+
 
 ### CODES-
 1-
